@@ -1,0 +1,147 @@
+.contact{
+    margin-top: 40px;
+    margin-bottom: 40px; 
+}
+.contactContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    row-gap: 60px;
+}
+.infoTop{
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    max-width: 500px;
+}
+.title{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    text-transform: uppercase;
+    flex-wrap: wrap;
+    font-size: 60px;
+    color: white;
+}
+.text{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: white;
+    opacity: 0.5;
+}
+.infoBottom{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+.infoBottomF{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: white;
+    opacity: 0.5;
+}
+.infoBottomG{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    color: white;
+}
+
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px;
+    background-color: #081E36;
+    border-radius: 28px;
+    row-gap: 24px;
+}
+.form label{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: white;
+}
+.form input{
+    background-color: #20344A;
+    border: none;
+    padding: 16px;
+    border-radius: 32px;
+    color: white;
+}
+.nameNumber{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 16px;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: white;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: white;
+   opacity:  0.5;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: white;
+   opacity:  0.5;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: white;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: white;
+}
+::placeholder { /* Most modern browsers support this now. */
+   color: white;
+}
+
+.number{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+.qustion{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+.qustion textarea{
+    border-radius: 16px;
+    padding: 16px;
+    background-color: #20344A;
+    border: none;
+}
+.check{
+    display: flex;
+    column-gap: 8px;
+}
+
+.form button{
+    width: 100%;
+    border: none;
+    padding: 24px 40px;
+    color: white;
+    background-color: #20344A;
+    border-radius: 60px;
+}

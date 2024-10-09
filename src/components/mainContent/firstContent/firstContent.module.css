@@ -1,0 +1,54 @@
+.firstContent{
+    background-image: url("../../../assets/images/content/background1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+    position: relative;
+}
+
+.content{
+    margin-top: 100px;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+.content h1{
+    font-size: 64px;
+}
+
+.content p {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 300; 
+    font-size: 24px;
+}
+
+.content button{
+    font-size: 18px;
+    margin-top: 45px;
+}
+
+
+
+@media (max-width: 990px){
+    .firstContent{
+        min-height: 110vh;
+    } 
+    .content h1{
+        font-size: 35px;
+    }
+    .content p {
+        font-size: 16px;
+    }
+  }
+@media (max-width: 720px){
+    .content h1{
+        font-size: 24px;
+    }
+  }
